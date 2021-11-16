@@ -32,7 +32,8 @@ public class OrganizationModuleTest extends BaseClass{
 				
 				co.createOrg(Org_Name);
 				OrganizationInfo oi = new OrganizationInfo(driver);
-				oi.verifyOrgInfo(Org_Name);				
+				oi.verifyOrgInfo(Org_Name);	
+				System.out.println("This I changed");
 				
 	}
 	

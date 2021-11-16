@@ -11,7 +11,7 @@ public class SampleListenerTest extends BaseClass{
 	@Test
 	public void listenerTest()
 	{
-		System.out.println(10/0);
+		//System.out.println(10/0);
 	}
 
 }
